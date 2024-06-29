@@ -19,6 +19,7 @@ Este projeto é uma aplicação React para visualização dinâmica de dados, ut
 
 ## Tecnologias Utilizadas
 - React
+- TypeScript
 - Recharts
 - Tailwind CSS
 - shadcn/ui
