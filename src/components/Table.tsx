@@ -12,7 +12,7 @@ type Props = {
 
 function Table({ dataChartReduce, xKey, yKey, detail, detailKeys }: Props) {
     return (
-        <div className="w-full mt-4">
+        <div className="w-full mt-4 overflow-y-auto">
             <table className="w-full h-auto bg-gray-100">
                 <caption className="caption-bottom m-5">Soma de {yKey[0].toUpperCase() + yKey.substring(1)} por {xKey[0].toUpperCase() + xKey.substring(1)}{detail != 'empty' && detailKeys && ' detalhado por ' + detail}</caption>
                 <thead>
