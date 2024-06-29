@@ -31,3 +31,5 @@ npm install
 npm run dev
 ```
 Acesse http://localhost:5173 para ver a aplicação em execução no navegador.
+
+Demo: https://gilberto-junio.github.io/dynamic-data-react/
